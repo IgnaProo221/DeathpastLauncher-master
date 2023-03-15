@@ -20,12 +20,8 @@
         instance: false,
         buttons: [
             {
-                label: `Discord DestinyRPG`,
-                url: `https://discord.gg/bUXXsKGnXH`,
-            },
-            {
-                label: `Youtube DestinyRPG`,
-                url: `https://www.youtube.com/channel/UC5uKqUqfw-EfDZCRA88u5Mg`,
+                label: `Discord DeathPast`,
+                url: `https://discord.gg/hnTvpjNZ`,
             }
         ]
     });

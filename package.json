@@ -1,7 +1,7 @@
 {
     "name": "DeathPast-Launcher",
     "preductname": "DeathPast Launcher",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Launcher Mincraft por iSoul",
     "main": "src/app.js",
     "author": "iSoul",

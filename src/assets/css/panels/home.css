@@ -369,17 +369,6 @@
     left: 15px;
 }
 
-.git {
-    position: relative;
-    width: 100%;
-    height: 75px;
-    background-color: #292929;
-    border-radius: 10px;
-    transition: opacity 1s;
-    opacity: .8;
-    margin-block: -140px;
-}
-
 .git:hover {
     transition: opacity 1s;
     opacity: 1;

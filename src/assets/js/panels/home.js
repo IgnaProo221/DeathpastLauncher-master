@@ -88,11 +88,6 @@ class Home {
             // news.appendChild(blockNews);
         }
     }
-    async discordbtn() {
-    document.querySelector('.git').addEventListener('click', async() => {
-        require('electron').shell.openExternal("https://discord.gg/hnTvpjNZ")
-    })}
-
     async initLaunch() {
         document.querySelector('.play-btn').addEventListener('click', async() => {
             let urlpkg = pkg.user ? `${pkg.url}/${pkg.user}` : pkg.url;
