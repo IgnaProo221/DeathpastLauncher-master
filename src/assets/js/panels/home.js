@@ -88,20 +88,10 @@ class Home {
             // news.appendChild(blockNews);
         }
     }
-    async dynmapbtn() {
-        document.querySelector('.dynmap').addEventListener('click', async() => {
-            require('electron').shell.openExternal("http://144.217.65.58:30021")
-        })}
-    
     async discordbtn() {
     document.querySelector('.git').addEventListener('click', async() => {
-        require('electron').shell.openExternal("https://discord.gg/bUXXsKGnXH")
+        require('electron').shell.openExternal("https://discord.gg/hnTvpjNZ")
     })}
-
-    async websitebtn() {
-        document.querySelector('.web').addEventListener('click', async() => {
-            require('electron').shell.openExternal("https://destinyservers.wixsite.com/destinyrpg")
-        })}
 
     async initLaunch() {
         document.querySelector('.play-btn').addEventListener('click', async() => {
