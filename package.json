@@ -1,10 +1,10 @@
 {
     "name": "DeathPast-Launcher",
     "preductname": "DeathPast Launcher",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Launcher Mincraft por iSoul",
     "main": "src/app.js",
-    "author": "iSoul",
+    "author": "IgnaProo220",
     "url": "https://deathtimelaunchercore.000webhostapp.com",
     "engines": {
         "node": "16.x.x"
@@ -34,6 +34,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/IgnaProo221/DestinyRPG-Launcher-master.git"
+        "url": "git+https://github.com/IgnaProo221/DeathpastLauncher-master.git"
     }
 }

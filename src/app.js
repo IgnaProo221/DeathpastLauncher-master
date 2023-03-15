@@ -3,7 +3,7 @@
  * @license CC-BY-NC 4.0 - https://creativecommons.org/licenses/by-nc/4.0/
  */
 
- const clientId = '1039548864618831872';
+ const clientId = '1041516872983646232';
  const DiscordRPC = require('discord-rpc');
  const RPC = new DiscordRPC.Client({ transport: 'ipc'});
  
@@ -12,11 +12,11 @@
  async function setActivity() {
     if (!RPC) return;
     RPC.setActivity({
-        details: `Servidor Minecraft Rol`,
-        state: `Iniciando una Aventura!`,
+        details: `Servidor Minecraft Hardcore`,
+        state: `Fabric 1.19.2`,
         startTimestamp: Date.now(),
-        largeImageKey: 'logo-destiny',
-        largeImageText: `Minecraft DestinyRPG`,
+        largeImageKey: 'deathpastlarge',
+        largeImageText: `Jugando DeathPast`,
         instance: false,
         buttons: [
             {
