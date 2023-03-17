@@ -15,6 +15,8 @@
         details: `Servidor Minecraft Hardcore`,
         state: `Fabric 1.19.2`,
         startTimestamp: Date.now(),
+        smallImageKey: 'deathpastsmall',
+        smallImageText: 'Launcher oficial',
         largeImageKey: 'deathpastlarge',
         largeImageText: `Jugando DeathPast`,
         instance: false,
@@ -22,6 +24,10 @@
             {
                 label: `Discord DeathPast`,
                 url: `https://discord.gg/hnTvpjNZ`,
+            },
+            {
+                label: `Youtube DeathPast`,
+                url: `https://www.youtube.com/channel/UCrvYQAl3mhlc4utmBbJmCuA`,
             }
         ]
     });
